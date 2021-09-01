@@ -1,9 +1,92 @@
-body {
-  background-color: powderblue;
+.head{
+  background-color: rgb(0, 96, 100);
+  margin: -5px;
+  padding: 2px;
 }
-h1 {
-  color: blue;
+
+.head h1{
+  padding: 10px;
+  font-style: italic;
+  font-size: 36px;
 }
-p {
-  color: red;
+
+.homecook {
+  background-color: LightCoral;
+  border: 2px solid black;
+  margin: 40px;
+  padding: 20px;
+}
+
+.homecook h1{
+  font-size: 36px;
+}
+
+.homecook p{
+  opacity: 0;
+}
+
+.homecook p:hover{
+  opacity: 1;
+  font-size: 24px;
+}
+
+.views {
+  background-color: rgb(149, 236, 186);
+  border: 2px solid black;
+  margin: 40px;
+  padding: 20px;
+}
+
+.views h1{
+  font-size: 36px;
+}
+
+.views p{
+  opacity: 0;
+}
+
+.views p:hover{
+  opacity: 1;
+  font-size: 24px;
+}
+
+.moments {
+  background-color: rgb(255, 211, 242);
+  border: 2px solid black;
+  margin: 40px;
+  padding: 20px;
+}
+
+.moments h1{
+  font-size: 36px;
+}
+
+.moments p{
+  opacity: 0;
+}
+
+.moments p:hover{
+  opacity: 1;
+  font-size: 24px;
+}
+
+#baselayer{
+  position: absolute;
+  opacity: 0.6;
+  width: 1910px;
+  height: 400px;
+}
+
+#baselayer:hover{
+  opacity: 0;
+}
+
+#us {
+  position: relative;
+  border-radius: 15%;
+  opacity: 0;
+}
+
+#us:hover{
+  opacity: 1;
 }
