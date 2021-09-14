@@ -13,11 +13,12 @@
 .homecook {
   background-color: LightCoral;
   border: 2px solid black;
+  height: 100px;
   margin: 40px;
   padding: 20px;
 }
 
-.homecook h1{
+.homecook a{
   font-size: 36px;
 }
 
@@ -30,14 +31,50 @@
   font-size: 24px;
 }
 
+.homecook_img {
+  border-radius: 25%;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+
+
+
+.homecook_img div{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: 'Brush Script MT', cursive;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+  box-shadow: 10px 10px;
+}
+
+.homecook_img:hover{
+  cursor: pointer;
+}
+
+.homecook_img:hover div{
+  width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
+}
+
 .views {
   background-color: rgb(149, 236, 186);
+  height: 100px;
   border: 2px solid black;
   margin: 40px;
   padding: 20px;
 }
 
-.views h1{
+.views a{
   font-size: 36px;
 }
 
@@ -52,12 +89,13 @@
 
 .moments {
   background-color: rgb(255, 211, 242);
+  height: 100px;
   border: 2px solid black;
   margin: 40px;
   padding: 20px;
 }
 
-.moments h1{
+.moments a{
   font-size: 36px;
 }
 
